@@ -1,0 +1,71 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* for files */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   line-height: 22px;
+   text-decoration: none;
+   list-style: none;
+   outline: none;
+}
+
+body {
+   font-family: "Montserrat";
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5 {
+   text-align: center;
+   padding: 10px;
+}
+
+h3 {
+   font-size: 18px;
+}
+
+p{
+   font-size: 12px;
+}
+
+/* root styles */
+:root {
+   --primary-font-h1: 48px;
+   --primary-font-h2: 36px
+   --secondary-font-h2: 24px
+   --secondary-font-h2: 20px
+   --category-fonts-size: 20px;
+   --body-text: 14px
+
+   --tarnsition: ease-in-out 300ms;
+}
+
+.form_btn {
+   border: none;
+   padding: 10px 30px;
+   font-weight: 600;
+}
+
+.btn {
+   padding: 10px 15px;
+   background-color: orangered;
+   color: white;
+   margin-left: 25px;
+   margin-top: 10px;
+   text-decoration: none;
+   border: none;
+   margin: auto;
+}
+
+.btns {
+   margin-left: 10px;
+}
+
+.read_more {
+   text-align: center;
+}
